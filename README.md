@@ -4,9 +4,9 @@ This is a set of middlewares that can be used to deserialize parameters sent in 
 
 ## Installation ##
 
-Latest stable version:
+Latest stable version: [![Clojars Project](http://clojars.org/ring-middleware-format/latest-version.svg)](http://clojars.org/ring-middleware-format)
 
-[![Clojars Project](http://clojars.org/ring-middleware-format/latest-version.svg)](http://clojars.org/ring-middleware-format)
+Copy/paste-able dependency: `[ring-middleware-format "0.7.2"]`
 
 Add this to your dependencies in `project.clj`.
 
