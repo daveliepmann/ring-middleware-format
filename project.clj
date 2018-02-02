@@ -8,18 +8,18 @@
             :distribution :repo
             :comments "same as Clojure"}
   :dependencies [[org.clojure/core.memoize "0.5.9"]
-                 [ring/ring-core "1.5.1"]
-                 [cheshire "5.7.0"]
-                 [org.clojure/tools.reader "0.10.0"]
-                 [com.ibm.icu/icu4j "58.2"]
-                 [circleci/clj-yaml "0.5.5"]
-                 [clojure-msgpack "1.2.0"]
-                 [com.cognitect/transit-clj "0.8.297"]]
+                 [ring/ring-core "1.6.3"]
+                 [cheshire "5.8.0"]
+                 [org.clojure/tools.reader "1.2.1"]
+                 [com.ibm.icu/icu4j "60.2"]
+                 [circleci/clj-yaml "0.5.6"]
+                 [clojure-msgpack "1.2.1"]
+                 [com.cognitect/transit-clj "0.8.300"]]
   :plugins [[lein-codox "0.10.2"]]
   :codox {:src-uri "http://github.com/ngrunwald/ring-middleware-format/blob/master/{filepath}#L{line}"
           :defaults {:doc/format :markdown}}
   :profiles {:dev {:dependencies [[org.clojure/clojure "1.8.0"]]}
              :1.6 {:dependencies [[org.clojure/clojure "1.6.0"]]}
              :1.7 {:dependencies [[org.clojure/clojure "1.7.0"]]}
-             :1.9 {:dependencies [[org.clojure/clojure "1.9.0-alpha14"]]}}
+             :1.9 {:dependencies [[org.clojure/clojure "1.9.0"]]}}
   :aliases {"all" ["with-profile" "dev:dev,1.6:dev,1.7:dev,1.9"]})
